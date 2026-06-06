@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Tests / tooling
+.pytest_cache/
+.idea/
+
+# Secrets and local config
+.env2
+.env.*
+
+# Runtime artifacts
+.wb_browser_profile/
+reports/
