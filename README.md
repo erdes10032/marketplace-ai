@@ -63,7 +63,7 @@ python scripts/run_analysis.py --brand vitaveris --cdp-url http://127.0.0.1:9222
 Chrome для CDP:
 
 ```text
-chrome.exe --remote-debugging-port=9222 --user-data-dir="%LOCALAPPDATA%\wb-chrome-profile"
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="$env:LOCALAPPDATA\wb-chrome-profile"
 ```
 
 Откройте wildberries.ru в этом окне, затем запустите анализ с `--cdp-url`.
